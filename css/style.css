@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+main .navigation ul li {
+  list-style: none;
+}
+main .navigation ul li a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
