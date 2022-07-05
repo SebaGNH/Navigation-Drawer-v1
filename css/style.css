@@ -21,7 +21,6 @@ main {
   width: 300px;
   height: 420px;
   border-radius: 10px;
-  overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
@@ -65,6 +64,30 @@ main .navigation ul li a .title {
   height: 60px;
   line-height: 60px;
   white-space: nowrap;
+}
+
+section {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #f5f5f5;
+  cursor: pointer;
+  right: -20px;
+  top: calc(50% - 20px);
+  border: 5px solid #283CB8;
+  border-radius: 50%;
+  z-index: 5;
+}
+section::before {
+  content: "\f054";
+  font-family: fontAwesome;
+  position: absolute;
+  color: #283CB8;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
